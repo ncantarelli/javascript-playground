@@ -273,6 +273,18 @@ console.log("Hello I am testing with the console log.");
 // listBands(myBandList);
 
 //! exercise 28
-function addMultTable(rows, cols) {
-    
-}
+// function addMultTable(rows, cols) {
+//     let table = document.createElement("table");
+//     for (let i = 0; i <= rows; i++) {
+//         let row = document.createElement("tr");
+//         for (let j = 0; j <= cols; j++) {
+//             let cell = document.createElement(i === 0 || j === 0 ? "th" : "td");
+//             cell.textContent = i === 0 && j === 0 ? "x" : i === 0 ? j : j === 0 ? i : i * j;
+//             row.appendChild(cell);
+//         }
+//         table.appendChild(row);
+//     }
+//     let heading = document.querySelector("h1");
+//     heading.insertAdjacentElement("afterend", table);
+// }
+// addMultTable(10, 10);
